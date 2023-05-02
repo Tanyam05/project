@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose , cursive";
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    border: none;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/assets/projecct\ 1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo{
+    padding-left: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60 0 60;
+    margin-top: 55px;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: "red rose";
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffc233;
+}
+
+.logo,
+.list-items{
+    cursor: pointer;
+}
+
+.button-small{
+    background-color: #ff505f;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 12px 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    list-style: 30px;
+    font-family: "Red rose";
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.hero{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 120px;
+    max-width: 1254px;
+}
+
+.hero-heading{
+    font-family: "Dela Gothic One", cursive;
+    font-size: 100px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 114px;
+    color: #ffc233;
+}
+
+.button-large{
+    background-color: #ff505f;
+    font-weight: 700;
+    font-size: 32px;
+    padding: 24px 60px;
+    border: none;
+    cursor: pointer;
+    font-size: 32px;
+    list-style: 30px;
+    font-family: "Red rose";
+    color: #ffffff;
+    margin-top: 60px;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+.navbar ul a{
+    color: #ffc233;
+    font-family: sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    /* transition: 0.6s ease-in-out; */
+}
+.navbar ul a:hover{
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+.btn{
+    transition: 0.6s ease-in-out;
+}
+.btn:hover{
+    opacity: 0.3;
+}
